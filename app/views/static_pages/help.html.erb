@@ -1,8 +1,10 @@
-<h1>Help</h1>
+<h1><%= t "static_pages.helppage.help" %></h1>
 <p>
-  Get help on the Ruby on Rails Tutorial at the
-  <a href="https://www.railstutorial.org/help">Rails Tutorial help page</a>.
-  To get help on this sample app, see the
-  <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-  book</a>.
+  <%= t "static_pages.helppage.getHelp" %>
+  <%= link_to t("static_pages.helppage.tutorialHelp"), Settings.client.railstutorial %>.
+  <%= t "static_pages.helppage.helpApp" %>
+  <% link_to Settings.client.railsBook do %>
+    <%= t "static_pages.helppage.tutorial" %>
+  <% end %>
+  <%= t "static_pages.helppage.book" %>
 </p>
