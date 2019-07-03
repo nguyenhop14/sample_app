@@ -1,0 +1,7 @@
+client:
+  host: "localhost:3000"
+  railstutorial: "https://www.railstutorial.org/"
+  michael: "http://www.michaelhartl.com/"
+  contact: "http://localhost:3000/static_pages/contact"
+  railsBook: "https://www.railstutorial.org/book"
+  newTutorial: "http://news.railstutorial.org/"

@@ -1,0 +1,47 @@
+vi:
+  layouts:
+    _footer:
+      tutorial: "Hướng dẫn học Ruby "
+      about:    "Về chúng tôi"
+      contact:  "Liên hệ"
+      _new:      "Tin tức"
+      the: "The"
+      michael: "bởi Michael Hartl"
+
+    _header:
+      home: "Nhà của tôi"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+
+    application:
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+
+  static_pages:
+    home:
+      welcome: "Chào mừng bạn đến với ứng dụng Sample"
+      homepage: "Đây là website"
+      rubyTutorial: "Hướng dẫn Ruby on Rails"
+      sampleApp: "của ứng dụng Sample"
+      signup: "Đăng nhập ngay!"
+
+    helppage:
+      help: "Trợ giúp"
+      getHelp: "Nhận trợ giúp về Ruby on Rails ở"
+      tutorialHelp: "trang tợ giúp Rails"
+      helpApp: " để nhận hỗ trợ về ứng dụng mẫu"
+      tutorial: "hướng dẫn Ruby on Rails"
+      book: "sách"
+
+    contactPage:
+      contact: "Liên hệ"
+      header: " Liên hệ với website hướng dẫn Ruby on Rails"
+      contactpage: "trang liên hệ"
+
+    aboutPage:
+      about: "Về chúng tôi"
+
+  user:
+    new:
+      signup: "Tạo tài khoản"
+      newUser: "Điều này sẽ giúp bạn đăng nhập vào hệ thống như một người dùng mới."
