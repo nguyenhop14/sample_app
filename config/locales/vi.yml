@@ -12,6 +12,7 @@ vi:
       home: "Nhà của tôi"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      name: "sample app"
 
     application:
       en: "Tiếng Anh"
@@ -45,3 +46,14 @@ vi:
     new:
       signup: "Tạo tài khoản"
       newUser: "Điều này sẽ giúp bạn đăng nhập vào hệ thống như một người dùng mới."
+      confirm: "Xác nhận"
+      create: "Tạo tài khoản"
+
+  controller:
+    concerns:
+      user:
+        welcome: "Chào mừng đến với ứng dụng Sample!"
+        not_found: "Không tìm thấy người dùng"
+
+  shared:
+    errorMessage: "Biếu mẫu chứa"

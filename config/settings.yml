@@ -10,4 +10,6 @@ user:
   maxName: 50
   maxEmail: 255
   minPass: 6
-  emailRegex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  emailRegex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+  usersHelper:
+    gravatarSize: 80
