@@ -13,6 +13,11 @@ vi:
       help: "Trợ giúp"
       login: "Đăng nhập"
       name: "sample app"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      users: "Người dùng"
 
     application:
       en: "Tiếng Anh"
@@ -48,6 +53,9 @@ vi:
       newUser: "Điều này sẽ giúp bạn đăng nhập vào hệ thống như một người dùng mới."
       confirm: "Xác nhận"
       create: "Tạo tài khoản"
+      email: "email"
+      password: "Mật khẩu"
+      name: "Tên người dùng"
 
   controller:
     concerns:
@@ -57,3 +65,11 @@ vi:
 
   shared:
     errorMessage: "Biếu mẫu chứa"
+
+  sessions:
+    new:
+      login: "Đăng nhập"
+      signup: "Đăng ký ngay!"
+      email: "email"
+      password: "Mật khẩu"
+      newU: "Người dùng mới?"
