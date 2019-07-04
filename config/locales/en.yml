@@ -12,6 +12,7 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      name: "sample app"
 
     application:
       en: "English"
@@ -45,6 +46,17 @@ en:
     new:
       signup: "Sign up"
       newUser: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      create: "Create my account"
+
+  controller:
+    concerns:
+      user:
+        welcome: "Welcome to the Sample App!"
+        not_found: "Not Fount User"
+
+  shared:
+    errorMessage: "The form contains"
 
 
 

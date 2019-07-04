@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get "/contact", to: "static_pages#contact"
   get "/login", to: "users#new"
 
+  post "/signup",  to: "users#create"
+
   scope "(:locale)", locale: /en|vi/ do
     resources :microposts
     resources :users
