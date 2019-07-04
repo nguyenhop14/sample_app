@@ -5,13 +5,13 @@
     <%= form_for @user, url: signup_path do |f| %>
       <%= render "shared/error_messages" %>
 
-      <%= f.label :name %>
+      <%= f.label t("user.new.name") %>
       <%= f.text_field :name, class: "form-control" %>
 
-      <%= f.label :email %>
+      <%= f.label t("user.new.email") %>
       <%= f.email_field :email, class: "form-control" %>
 
-      <%= f.label :password %>
+      <%= f.label t("user.new.password") %>
       <%= f.password_field :password, class: "form-control" %>
 
       <%= f.label :password_confirmation, t("user.new.confirm") %>
