@@ -56,12 +56,35 @@ vi:
       email: "email"
       password: "Mật khẩu"
       name: "Tên người dùng"
+      create: "Tạo tài khoản"
+
+    edit:
+      editU: "Chỉnh sửa tài khoản"
+      confirm: "Xác nhận "
+      save: "Lưu thay đổi"
+      change: "thay đổi"
+      email: "email"
+      password: "Mật khẩu"
+      name: "Tên người dùng"
+      _update: "Cập nhật tài khoản"
+
+    _form:
+      name: "tên"
+      email: "email"
+      password: "mật khẩu"
+      confirm: "xác nhận mật khẩu"
+
+    index:
+      all: "Tất cả người dùng"
 
   controller:
     concerns:
       user:
         welcome: "Chào mừng đến với ứng dụng Sample!"
         not_found: "Không tìm thấy người dùng"
+        updated: "Cập nhật hồ sơ thành công"
+        login: "Đăng nhập trước khi thực hiện thao tác."
+        invalid: "Email hoặc mật khẩu không hợp lệ"
 
   shared:
     errorMessage: "Biếu mẫu chứa"
