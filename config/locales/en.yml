@@ -56,12 +56,40 @@ en:
       email: "email"
       password: "password"
       name: "name"
+      create: "Create my account"
+
+    edit:
+      editU: "Edit user"
+      confirm: "Confirmation"
+      save: "Save chaneges"
+      change: "change"
+      email: "email"
+      password: "password"
+      name: "name"
+      _update: "Update your profile"
+
+    _form:
+      name: "name"
+      email: "email"
+      password: "password"
+      confirm: "password_confirmation"
+
+    index:
+      all: "All users"
+
+    _user:
+      delete: "delete"
+      sure: "You sure?"
 
   controller:
     concerns:
       user:
         welcome: "Welcome to the Sample App!"
         not_found: "Not Fount User"
+        updated: "Profile updated"
+        login: "Please log in."
+        invalid: "Invalid email/password combination"
+        deleted: "User deleted"
 
       session_controller:
         danger: "Invalid email/password combination"

@@ -13,3 +13,6 @@ user:
   emailRegex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
   usersHelper:
     gravatarSize: 80
+  gravatar_forU: 50
+  mail: "http://gravatar.com/emails"
+  per: 10
