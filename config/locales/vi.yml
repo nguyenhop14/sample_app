@@ -85,6 +85,21 @@ vi:
         updated: "Cập nhật hồ sơ thành công"
         login: "Đăng nhập trước khi thực hiện thao tác."
         invalid: "Email hoặc mật khẩu không hợp lệ"
+        deleted: "Đã xóa người dùng"
+        activate: "Kiểm tra email của bạn để kích hoạt tài khoản."
+
+      account:
+        success: "Tài khoản đã được kích hoạt!"
+        danger: "Kích hoạt không hợp lệ"
+
+      session_controller:
+        danger: "Mật khẩu/Email không hợp lệ"
+        message: "Tài khoản chưa được kích hoạt. "
+        mess: "Kiểm tra email của bạn để kích hoạt đường link."
+
+    heplers:
+      application:
+        base: "Ứng dụng Sample hướng dẫn Ruby on rails"
 
   shared:
     errorMessage: "Biếu mẫu chứa"
@@ -97,3 +112,9 @@ vi:
       password: "Mật khẩu"
       newU: "Người dùng mới?"
       remember: "Ghi nhớ mật khẩu trên máy tính"
+
+  mailer:
+    hi: "Chào"
+    welcome: "Chào nừng bạn đến với ứng dụng Sample! Nhấn vào đường link đưới đây để kích hoạt tài khoản của bạn:"
+    app: "Sample App"
+    activate: "Kích hoạt"

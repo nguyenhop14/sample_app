@@ -9,12 +9,13 @@ Rails.application.routes.draw do
   get "/login", to: "sessions#new"
   get "/login", to: "sessions#create"
 
-  post "/signup",  to: "users#create"
+  post "/login", to: "sessions#create"
 
   delete "/logout", to: "sessions#destroy"
 
   scope "(:locale)", locale: /en|vi/ do
     resources :microposts
     resources :users
+    resources :account_activations, only: :edit
   end
 end
