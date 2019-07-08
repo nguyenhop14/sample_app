@@ -16,3 +16,9 @@ user:
   gravatar_forU: 50
   mail: "http://gravatar.com/emails"
   per: 10
+
+mail:
+  subject: "Account activation"
+  mailTo: "hopnt98@gmail.com"
+  mailDefault: ""hopnt98@gmail.com""
+

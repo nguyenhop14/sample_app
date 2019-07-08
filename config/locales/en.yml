@@ -90,9 +90,16 @@ en:
         login: "Please log in."
         invalid: "Invalid email/password combination"
         deleted: "User deleted"
+        activate: "Please check your email to activate your account."
+
+      account:
+        success: "Account activated!"
+        danger: "Invalid activation link"
 
       session_controller:
         danger: "Invalid email/password combination"
+        message: "Account not activated. "
+        mess: "Check your email for the activation link."
 
   shared:
     errorMessage: "The form contains"
@@ -105,6 +112,13 @@ en:
       password: "password"
       newU: "New User?"
       remember: "Remember me on this computer"
+
+  mailer:
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    app: "Sample App"
+    activate: "Activate"
+
 
 
 
