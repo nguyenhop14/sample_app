@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "rails", "~> 5.2.3"
-gem "puma", "~> 3.11"
+gem "puma", "~> 3.12"
 gem "sass-rails", "~> 5.0"
 gem "jquery-rails"
 gem "uglifier", ">= 1.3.0"
